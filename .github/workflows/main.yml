@@ -11,6 +11,10 @@ on:
       - dev
       - test
 
+permissions:
+  contents: write
+  pull-requests: write
+
 
 jobs:  # Telling what jobs we need to happen
   build:      # Specify the building name and machine
